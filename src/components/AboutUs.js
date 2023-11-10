@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import { FaShield, FaUsers, FaCheck, FaKey } from "react-icons/fa6";
 import { FaEye } from "react-icons/fa";
 import "../App.css";
 
 const AboutUs = () => {
+  const aboutUsRef = useRef();
   const items = [
     {
       icon: <FaShield className="h-8 w-8 text-[#0060ff]" />,
@@ -34,13 +35,14 @@ const AboutUs = () => {
   ];
 
   return (
-    <section className="bg-[#efefef] py-12 ">
+    <section ref={aboutUsRef} id="about" className="bg-[#efefef] py-12 ">
       <div className="container w-9/12 mx-auto text-center px-12">
-        <h2 className=" text-2xl md:text-4xl font-bold mb-12 mx-auto">
-          ABOUT US
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12 mx-auto ">
+          <span className="hidden md:line-left"></span>
+          <span className="text-between-lines">ABOUT US</span>
+          <span className="hidden md:line-right"></span>
         </h2>
-
-        <p className="text-center text-md px-12">
+        <p className="text-center text-md md:text-lg md:px-12 px-8">
           At <b>911 Transportation</b>, we take pride in offering a limo service
           that goes above and beyond the ordinary. We have crafted an experience
           that blends safety, efficiency, and professionalism to provide you
@@ -54,11 +56,11 @@ const AboutUs = () => {
             >
               <div className="text-md">{item.icon}</div>
               <h3 className="text-center font-bold my-3">{item.title}</h3>
-              <p className="text-sm text-center">{item.text}</p>
+              <p className="text-md md:text-[1rem] text-center">{item.text}</p>
             </div>
           ))}
         </div>
-        <p className="text-center text-md my-10 px-12">
+        <p className="text-center text=md md:text-lg my-10 md:px-12 px-8">
           Experience the difference and let us provide you with a journey that
           reflects the highest standards of service. Contact us today and allow
           us to exceed your expectations as your trusted limo service provider.

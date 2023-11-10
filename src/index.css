@@ -1,6 +1,28 @@
 @tailwind base;
+html {
+  scroll-behavior: smooth;
+}
 @tailwind components;
+@layer components {
+  .text-between-lines {
+    @apply  z-10;
+  }
+
+  .line-left {
+    @apply inline-block text-center h-1 align-middle mr-2 w-[10%] left-[0.5em]  bg-[#0060ff];
+  }
+
+  .line-right {
+    @apply inline-block text-center h-1 align-middle ml-2 w-[10%] left-[0.5em]  bg-[#d41c30];
+  }
+
+  .service-container {
+    @apply bg-[#212121] text-white w-[80%] my-24;
+  }
+}
 @tailwind utilities;
+
+
 
 #menu-toggle:checked + #menu{
     display: block;

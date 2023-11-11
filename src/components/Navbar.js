@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-col items-end">
-          <div className="hidden md:flex gap-4 text-sm ">
+          <div className=" md:flex gap-4 text-sm ">
             <p className="text-gray-300 flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ const Navbar = () => {
           >
             <ul>
               <li
-                className={`md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3 relative ${
+                className={`md:inline-block cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
                   window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
                 }`}
               >
@@ -78,14 +78,14 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={500}
+                  duration={400}
                   onClick={handleToggle}
                 >
                   Home
                 </Link>
               </li>
               <li
-                className={`md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3 relative ${
+                className={`md:inline-block cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
                   window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
                 }`}
               >
@@ -95,14 +95,14 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={500}
+                  duration={400}
                   onClick={handleToggle}
                 >
                   About Us
                 </Link>
               </li>
               <li
-                className={`md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3 relative ${
+                className={`md:inline-block cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
                   window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
                 }`}
               >
@@ -112,14 +112,14 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={500}
+                  duration={400}
                   onClick={handleToggle}
                 >
                   Fleet
                 </Link>
               </li>
               <li
-                className={`md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3 relative ${
+                className={`md:inline-block cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
                   window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
                 }`}
               >
@@ -129,14 +129,14 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={500}
+                  duration={400}
                   onClick={handleToggle}
                 >
                   Services
                 </Link>
               </li>
               <li
-                className={`md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3 relative ${
+                className={`md:inline-block cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
                   window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
                 }`}
               >
@@ -146,14 +146,14 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={500}
+                  duration={400}
                   onClick={handleToggle}
                 >
                   Promotions
                 </Link>
               </li>
               <li
-                className={`md:inline-block cursor-pointer hover:text-gray-500 border-b md:border-none py-2 px-3 relative ${
+                className={`md:inline-block cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 md:px-0  relative ${
                   window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
                 }`}
               >
@@ -163,7 +163,7 @@ const Navbar = () => {
                   spy={true}
                   smooth={true}
                   offset={-100}
-                  duration={500}
+                  duration={400}
                   onClick={handleToggle}
                 >
                   Contact Us

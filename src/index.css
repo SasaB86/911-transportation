@@ -19,6 +19,10 @@ html {
   .service-container {
     @apply bg-[#212121] text-white w-[80%] my-24;
   }
+
+  .active {
+    @apply pb-1 border-b-2 border-[#d41c30];
+  }
 }
 @tailwind utilities;
 
@@ -77,23 +81,5 @@ html {
     top: 0;
   }
 
-  .line-before-after::before,
-  .line-before-after::after {
-    content: '';
-    display: block;
-    width: 50%;
-    height: 2px;
-    background-color: red; /* Set the line color to red */
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
   
-  .line-before-after::before {
-    left: 0;
-  }
-  
-  .line-before-after::after {
-    right: 0;
-  }
   

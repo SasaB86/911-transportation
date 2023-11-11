@@ -1,4 +1,5 @@
-import React, { useRef } from "react";
+import React from "react";
+import { Element } from "react-scroll";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
 import Fleet from "./components/Fleet";
@@ -6,31 +7,36 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Promotions from "./components/Promotions";
-import Services from "./components/Services";
 import ScrollToTop from "./components/ScrollToTop";
+import Services from "./components/Services";
 
 function App() {
-  const aboutUsRef = useRef(null);
-  const fleetRef = useRef(null);
-  const servicesRef = useRef(null);
-  const promotionsRef = useRef(null);
-  const contactRef = useRef(null);
-
   return (
     <div>
-      <Navbar
-        aboutUsRef={aboutUsRef}
-        fleetRef={fleetRef}
-        servicesRef={servicesRef}
-        promotionsRef={promotionsRef}
-        contactRef={contactRef}
-      />
-      <Hero />
-      <AboutUs ref={aboutUsRef} />
-      <Fleet ref={fleetRef} />
-      <Services ref={servicesRef} />
-      <Promotions ref={promotionsRef} />
-      <Contact ref={contactRef} />
+      <Navbar />
+      <Element name="hero">
+        <Hero />{" "}
+      </Element>
+      <Element name="about">
+        <AboutUs />
+      </Element>
+
+      <Element name="fleet">
+        <Fleet />
+      </Element>
+
+      <Element name="services">
+        <Services />
+      </Element>
+
+      <Element name="promotions">
+        <Promotions />
+      </Element>
+
+      <Element name="contact">
+        <Contact />
+      </Element>
+
       <Footer />
       <ScrollToTop />
     </div>

@@ -11,7 +11,7 @@ const Contact = () => {
           <span className="text-between-lines">CONTACT</span>
           <span className="hidden md:line-right"></span>
         </h2>
-        <div className="flex flex-col md:flex-row items-center justify-center my-8">
+        <div className="flex flex-col md:flex-row items-center justify-center md:gap-8 my-8">
           {/* Call Us */}
           <div className="flex flex-col items-center mb-8">
             <FaPhone className="text-2xl text-[#0060ff]" />

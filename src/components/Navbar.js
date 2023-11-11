@@ -79,6 +79,7 @@ const Navbar = () => {
                   smooth={true}
                   offset={-100}
                   duration={500}
+                  onClick={handleToggle}
                 >
                   Home
                 </Link>
@@ -95,6 +96,7 @@ const Navbar = () => {
                   smooth={true}
                   offset={-100}
                   duration={500}
+                  onClick={handleToggle}
                 >
                   About Us
                 </Link>
@@ -111,6 +113,7 @@ const Navbar = () => {
                   smooth={true}
                   offset={-100}
                   duration={500}
+                  onClick={handleToggle}
                 >
                   Fleet
                 </Link>
@@ -127,6 +130,7 @@ const Navbar = () => {
                   smooth={true}
                   offset={-100}
                   duration={500}
+                  onClick={handleToggle}
                 >
                   Services
                 </Link>
@@ -143,6 +147,7 @@ const Navbar = () => {
                   smooth={true}
                   offset={-100}
                   duration={500}
+                  onClick={handleToggle}
                 >
                   Promotions
                 </Link>
@@ -159,6 +164,7 @@ const Navbar = () => {
                   smooth={true}
                   offset={-100}
                   duration={500}
+                  onClick={handleToggle}
                 >
                   Contact Us
                 </Link>

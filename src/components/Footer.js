@@ -58,12 +58,7 @@ const Footer = () => {
           >
             Services
           </a>
-          <a
-            href="#promotions"
-            className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
-          >
-            Promotions
-          </a>
+
           <a
             href="#contact"
             className="text-sm md:text-base uppercase cursor-pointer hover:text-gray-500 scroll-smooth"

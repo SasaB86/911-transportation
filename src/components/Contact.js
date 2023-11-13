@@ -6,9 +6,11 @@ const Contact = () => {
   return (
     <section ref={contactRef} id="contact" className="bg-[#efefef] pt-16">
       <div className="container mx-auto text-center">
-        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12 mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto">
           <span className="hidden md:line-left"></span>
-          <span className="text-between-lines">CONTACT</span>
+          <span className="text-between-lines border-b-4 border-[#d41c30] md:border-none">
+            CONTACT
+          </span>
           <span className="hidden md:line-right"></span>
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-center md:gap-8 my-8">
@@ -26,7 +28,6 @@ const Contact = () => {
             <FaMapMarkerAlt className="text-2xl text-[#0060ff]" />
             <div>
               <h3 className="text-2xl font-bold mb-2 uppercase">Location</h3>
-              <p className="text-lg">647 Metropolitan way, apt 411</p>{" "}
               <p className="text-lg">Des Plaines, Illinois 60016</p>
             </div>
           </div>

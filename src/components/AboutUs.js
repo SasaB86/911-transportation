@@ -35,11 +35,13 @@ const AboutUs = () => {
   ];
 
   return (
-    <section ref={aboutUsRef} id="about" className="bg-[#efefef] py-12 ">
+    <section ref={aboutUsRef} id="about" className="bg-[#efefef] py-8 md:py-12">
       <div className="container w-9/12 mx-auto text-center px-12">
-        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12 mx-auto ">
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto ">
           <span className="hidden md:line-left"></span>
-          <span className="text-between-lines">ABOUT US</span>
+          <span className="text-between-lines border-b-4 border-[#d41c30] md:border-none">
+            ABOUT US
+          </span>
           <span className="hidden md:line-right"></span>
         </h2>
         <p className="text-center text-md md:text-lg md:px-12 px-8">

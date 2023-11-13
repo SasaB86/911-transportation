@@ -23,9 +23,9 @@ const Hero = () => {
           </h1>
         </div>
         <div className="bg-[#0060ff] h-1 w-[100px] md:w-[150px] my-4"></div>
-        <button className="bg-[#d41c30] text-white font-light md:font-bold md:px-9 md:py-3 px-5 py-2  hover:bg-[#e5142b]">
+        {/* <button className="bg-[#d41c30] text-white font-light md:font-bold md:px-9 md:py-3 px-5 py-2  hover:bg-[#e5142b]">
           GET A QUOTE
-        </button>
+        </button> */}
       </div>
     </section>
   );

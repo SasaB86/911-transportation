@@ -6,7 +6,6 @@ import Fleet from "./components/Fleet";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Promotions from "./components/Promotions";
 import ScrollToTop from "./components/ScrollToTop";
 import Services from "./components/Services";
 
@@ -27,10 +26,6 @@ function App() {
 
       <Element name="services">
         <Services />
-      </Element>
-
-      <Element name="promotions">
-        <Promotions />
       </Element>
 
       <Element name="contact">

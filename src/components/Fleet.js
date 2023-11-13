@@ -4,11 +4,13 @@ import carImage from "../images/car.png";
 const Fleet = () => {
   const fleetRef = useRef();
   return (
-    <section ref={fleetRef} id="fleet" className="bg-[#efefef] py-12 ">
+    <section ref={fleetRef} id="fleet" className="bg-[#efefef] py-8 md:py-12">
       <div className="container w-9/12 mx-auto text-center px-12">
-        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12 mx-auto ">
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto ">
           <span className="hidden md:line-left"></span>
-          <span className="text-between-lines">FLEET</span>
+          <span className="text-between-lines border-b-4 border-[#d41c30] md:border-none">
+            FLEET
+          </span>
           <span className="hidden md:line-right"></span>
         </h2>
         <div className="py-8 mb-14">
@@ -32,10 +34,12 @@ const Fleet = () => {
             <img src={carImage} alt="Fleet" className="w-full h-auto" />
           </div>
           <div className="md:w-1/2 md:pl-8 flex flex-col items-center text-left">
-            <h2 className="text-lg md:text-3xl font-bold mb-4">Toyota RAV4</h2>
+            <h2 className="text-lg md:text-3xl font-bold mb-4">
+              Ford Expedition XLT Max
+            </h2>
             <ul>
-              <li>• Number of Passengers: 7</li>
-              <li>• Year 2023</li>
+              <li>• Number of Passengers: 6</li>
+              <li>• Year 2024</li>
               <li>• 6 passengers maximum (with luggage)</li>
             </ul>
           </div>

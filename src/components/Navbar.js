@@ -135,23 +135,7 @@ const Navbar = () => {
                   Services
                 </Link>
               </li>
-              <li
-                className={`md:inline-block cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
-                  window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
-                }`}
-              >
-                <Link
-                  className="scroll-smooth"
-                  to="promotions"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={400}
-                  onClick={handleToggle}
-                >
-                  Promotions
-                </Link>
-              </li>
+
               <li
                 className={`md:inline-block cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 md:px-0  relative ${
                   window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""

@@ -14,7 +14,7 @@ function App() {
     <div>
       <Navbar />
       <Element name="hero">
-        <Hero />{" "}
+        <Hero />
       </Element>
       <Element name="about">
         <AboutUs />

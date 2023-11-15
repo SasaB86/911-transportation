@@ -1,10 +1,9 @@
-import React, { useRef } from "react";
-import { FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
+import React from "react";
+import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
-  const contactRef = useRef();
   return (
-    <section ref={contactRef} id="contact" className="bg-[#efefef] pt-16">
+    <section id="contact" className="bg-[#efefef]">
       <div className="container mx-auto text-center">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto">
           <span className="hidden md:line-left"></span>

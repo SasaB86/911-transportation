@@ -1,11 +1,10 @@
-import React, { useRef } from "react";
+import React from "react";
 
 import { FaShield, FaUsers, FaCheck, FaKey } from "react-icons/fa6";
 import { FaEye } from "react-icons/fa";
 import "../App.css";
 
 const AboutUs = () => {
-  const aboutUsRef = useRef();
   const items = [
     {
       icon: <FaShield className="h-8 w-8 text-[#0060ff]" />,
@@ -35,7 +34,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <section ref={aboutUsRef} id="about" className="bg-[#efefef] py-8 md:py-12">
+    <section id="about" className="bg-[#efefef] py-8 md:py-12">
       <div className="container w-9/12 mx-auto text-center px-12">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto ">
           <span className="hidden md:line-left"></span>

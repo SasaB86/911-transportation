@@ -1,10 +1,9 @@
-import React, { useRef } from "react";
-import carImage from "../images/car.png";
+import React from "react";
+import carImage from "../images/suv-image.png";
 
 const Fleet = () => {
-  const fleetRef = useRef();
   return (
-    <section ref={fleetRef} id="fleet" className="bg-[#efefef] py-8 md:py-12">
+    <section id="fleet" className="bg-[#efefef] py-8 md:py-12">
       <div className="container w-9/12 mx-auto text-center px-12">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto ">
           <span className="hidden md:line-left"></span>

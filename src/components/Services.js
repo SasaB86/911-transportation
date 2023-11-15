@@ -1,17 +1,12 @@
-import React, { useRef } from "react";
+import React from "react";
 import airportService from "../images/circles-01.png";
 import businessService from "../images/circles-02.png";
 import weddingService from "../images/circles-03.png";
 import promService from "../images/circles-04.png";
 
 const Services = () => {
-  const servicesRef = useRef();
   return (
-    <section
-      ref={servicesRef}
-      id="services"
-      className="bg-[#efefef] py-8 md:py-12"
-    >
+    <section id="services" className="bg-[#efefef] py-8 md:py-12">
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto ">
         <span className="hidden md:line-left"></span>
         <span className="text-between-lines border-b-4 border-[#d41c30] md:border-none">
@@ -40,13 +35,18 @@ const Services = () => {
                 professionalism to offer you an unparalleled journey to or from
                 the airport.
               </p>
+              <ul>
+                <li>From O'Hare and Midway to Chicago - $160.00 </li>
+                <li>From Chicago to O'Hare and Midway - $156.00</li>
+                <li>*All taxes and gratuities included.</li>
+              </ul>
             </div>
           </div>
           <div className="z-10 mx-auto md:mr-10">
             <img
               src={airportService}
               alt="Airport Services"
-              className="w-3/4 h-3/4 md:w-full md:h-full object-contain md:object-cover mx-auto mb-4 md:mb-0 md:mr-0 "
+              className="w-3/4 h-3/4 md:w-full md:h-full object-contain md:object-cover mx-auto my-4 md:my-0 md:mr-0 "
             />
           </div>
         </div>
@@ -57,7 +57,7 @@ const Services = () => {
             <img
               src={businessService}
               alt="Business Service"
-              className="w-3/4 h-3/4 md:w-full md:h-full object-contain md:object-cover mx-auto mt-4 mb-4 md:mt-0 md:mb-0 md:mr-0"
+              className="w-3/4 h-3/4 md:w-full md:h-full object-contain md:object-cover mx-auto my-4 md:my-0 md:mr-0"
             />
           </div>
           <div className="w-[100%] my-4">
@@ -72,6 +72,10 @@ const Services = () => {
                 Let us elevate your business and corporate travel with our
                 impeccable service.
               </p>
+              <ul>
+                <li>Include two (2) hours of service - $250.00</li>
+                <li>*All taxes and gratuities included.</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -86,13 +90,19 @@ const Services = () => {
                 part of your love story and make your wedding transportation a
                 truly unforgettable experience.
               </p>
+              <ul>
+                <li>
+                  Wedding package include four (4) hours of service - $ 422.00
+                </li>
+                <li>*All taxes and gratuities included.</li>
+              </ul>
             </div>
           </div>
           <div className="z-10 mx-auto md:mr-10">
             <img
               src={weddingService}
               alt="Wedding Services"
-              className="w-3/4 h-3/4 md:w-full md:h-full object-contain md:object-cover mx-auto mb-4 md:mb-0 md:mr-0 "
+              className="w-3/4 h-3/4 md:w-full md:h-full object-contain md:object-cover mx-auto my-4 md:my-0 md:mr-0 "
             />
           </div>
         </div>
@@ -103,7 +113,7 @@ const Services = () => {
             <img
               src={promService}
               alt="Prom Services"
-              className="w-3/4 h-3/4 md:w-full md:h-full object-contain md:object-cover mx-auto mt-4 mb-4 md:mt-0 md:mb-0 md:mr-0"
+              className="w-3/4 h-3/4 md:w-full md:h-full object-contain md:object-cover mx-auto my-4 md:my-0 md:mr-0"
             />
           </div>
           <div className="w-[100%]  my-4">
@@ -119,6 +129,13 @@ const Services = () => {
                 transportation is nothing short of extraordinary, creating
                 memories that will last a lifetime.
               </p>
+              <ul>
+                Prom packages:
+                <li>Include two (2) hours of service - $250.00</li>
+                <li>Include two (4) hours of service - $440.00</li>
+                <li>(Each Additional 1/2 Hour is $70.00)</li>
+                <li>*All taxes and gratuities included.</li>
+              </ul>
             </div>
           </div>
         </div>

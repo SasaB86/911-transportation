@@ -1,10 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 
 const Promotions = () => {
-  const promotionsRef = useRef();
   return (
     <section
-      ref={promotionsRef}
       id="promotions"
       className="bg-black text-white py-8 md:py-12 scroll-smooth"
     >

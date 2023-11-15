@@ -10,6 +10,13 @@ const Navbar = () => {
     setToggleMenu(!toggleMenu);
   };
 
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <header className="md:sticky md:top-0 z-50">
       <div className="px-4 py-2 text-white flex  md:flex-row justify-around items-center bg-black">
@@ -17,7 +24,8 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Logo"
-            className="md:h-18 md:w-36 h-12 w-28 mr-2 w-auto "
+            onClick={handleScrollToTop}
+            className="md:h-18 md:w-36 h-12 w-28 mr-2 w-auto cursor-pointer"
           />
         </div>
 

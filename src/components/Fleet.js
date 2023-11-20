@@ -34,10 +34,9 @@ const Fleet = () => {
           </div>
           <div className="md:w-1/2 md:pl-8 flex flex-col items-center text-left">
             <h2 className="text-lg md:text-3xl font-bold mb-4">
-              Ford Expedition XLT Max
+              Ford Expedition
             </h2>
             <ul>
-              <li>• Number of Passengers: 6</li>
               <li>• Year 2024</li>
               <li>• 6 passengers maximum (with luggage)</li>
             </ul>

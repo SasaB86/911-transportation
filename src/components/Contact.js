@@ -12,18 +12,22 @@ const Contact = () => {
           </span>
           <span className="hidden md:line-right"></span>
         </h2>
-        <div className="flex flex-col md:flex-row items-center justify-center md:gap-8 my-8">
+        <div className="flex flex-col md:flex-row items-center justify-center  my-8">
           {/* Call Us */}
-          <div className="flex flex-col items-center mb-8">
+          <div className="w-1/5 flex flex-col items-center mb-8">
             <FaPhone className="text-2xl text-[#0060ff]" />
             <div>
               <h3 className="text-2xl font-bold mb-2 uppercase">Call Us</h3>
-              <p className="text-lg">Phone: +1 (224) 422 3254</p>
+              <p className="text-lg">
+                <a className="hover:underline" href="tel:+12244223254">
+                  Phone: +1 (224) 422 3254
+                </a>
+              </p>
             </div>
           </div>
 
           {/* Location */}
-          <div className="flex flex-col items-center mb-8 mx-6">
+          <div className="w-1/5 flex flex-col items-center mb-8 mx-6">
             <FaMapMarkerAlt className="text-2xl text-[#0060ff]" />
             <div>
               <h3 className="text-2xl font-bold mb-2 uppercase">Location</h3>
@@ -32,11 +36,18 @@ const Contact = () => {
           </div>
 
           {/* Email */}
-          <div className="flex flex-col items-center mb-8">
+          <div className="w-1/5 flex flex-col items-center mb-8">
             <FaEnvelope className="text-2xl text-[#0060ff]" />
             <div>
               <h3 className="text-2xl font-bold mb-2 uppercase">Email</h3>
-              <p className="text-lg">911transportation23@gmail.com</p>
+              <p className="text-lg">
+                <a
+                  className="hover:underline"
+                  href="mailto:911transportation23@gmail.com"
+                >
+                  911transportation23@gmail.com
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -44,8 +55,8 @@ const Contact = () => {
       {/* Google Map Embed */}
       <div className="relative h-[75vh] overflow-hidden aspect-ratio-16/9">
         <iframe
-          className="absolute top-0 left-0 w-full h-full border-0"
-          src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d4190.42287884919!2d-87.88619902162193!3d42.041541309786574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x880fb7682fe6d469%3A0x61584e825be6624b!2s647%20Metropolitan%20Way%2C%20Des%20Plaines%2C%20IL%2060016%2C%20USA!3m2!1d42.0418612!2d-87.8858625!5e0!3m2!1sen!2srs!4v1699637343370!5m2!1sen!2srs"
+          className="absolute top-0 left-0 w-full h-full border-0 grayscale"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6462.535569989578!2d-87.8959948034245!3d42.041344240874785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb0447ae71d6d%3A0xe95d217a6e46c8ba!2sDes%20Plaines%2C%20IL%2C%20USA!5e0!3m2!1sen!2srs!4v1700081341620!5m2!1sen!2srs"
           allowFullScreen=""
           loading="lazy"
           title="Google Map"

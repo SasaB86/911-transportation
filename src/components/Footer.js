@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGoogle, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -13,7 +14,10 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="mr-4"
           >
-            <FaGoogle size={24} />
+            <FaGoogle
+              size={24}
+              className="bg-white text-black p-1 rounded-sm"
+            />
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=61552493008860"
@@ -21,55 +25,74 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="mr-4"
           >
-            <FaFacebookSquare size={24} />
+            <FaFacebookSquare size={28} />
           </a>
           <a
             href="https://www.instagram.com/911transportation/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagramSquare size={24} />
+            <FaInstagramSquare size={28} />
           </a>
         </div>
 
         {/* Menu Items */}
         <div className="flex flex-col md:flex-row mb-4 md:mb-0">
-          <a
-            href="#home"
+          <Link
             className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={400}
           >
             Home
-          </a>
-          <a
-            href="#about"
+          </Link>
+          <Link
             className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={400}
           >
             About Us
-          </a>
-          <a
-            href="#fleet"
+          </Link>
+          <Link
             className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
+            to="fleet"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={400}
           >
             Fleet
-          </a>
-          <a
-            href="#services"
+          </Link>
+          <Link
             className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={400}
           >
             Services
-          </a>
+          </Link>
 
-          <a
-            href="#contact"
-            className="text-sm md:text-base uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
+          <Link
+            className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={400}
           >
             Contact Us
-          </a>
+          </Link>
         </div>
-
         {/* Copyright Text */}
         <div className="text-gray-500 text-sm">
-          &copy; 2021 911 transportation | All Rights Reserved
+          &copy; 2023 911 transportation | All Rights Reserved
         </div>
       </div>
     </footer>

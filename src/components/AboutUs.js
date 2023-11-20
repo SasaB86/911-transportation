@@ -43,7 +43,7 @@ const AboutUs = () => {
           </span>
           <span className="hidden md:line-right"></span>
         </h2>
-        <p className="text-center text-md md:text-lg md:px-12 px-8">
+        <p className="text-center text-md md:text-[1rem]  px-8">
           At <b>911 Transportation</b>, we take pride in offering a limo service
           that goes above and beyond the ordinary. We have crafted an experience
           that blends safety, efficiency, and professionalism to provide you
@@ -53,7 +53,7 @@ const AboutUs = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 flex flex-col items-center my-6 mx-6"
+              className="w-full sm:w-1/2 md:w-[45%] lg:w-[45%] flex flex-col items-center my-6 mx-6"
             >
               <div className="text-md">{item.icon}</div>
               <h3 className="text-center font-bold my-3">{item.title}</h3>
@@ -61,7 +61,7 @@ const AboutUs = () => {
             </div>
           ))}
         </div>
-        <p className="text-center text=md md:text-lg my-10 md:px-12 px-8">
+        <p className="text-center text=md md:text-[1rem] my-10 md:px-12 px-8">
           Experience the difference and let us provide you with a journey that
           reflects the highest standards of service. Contact us today and allow
           us to exceed your expectations as your trusted limo service provider.

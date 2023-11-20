@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ["Montserrat"],
-        lato: ["Lato"],
-        garamond: ["Garamond"],
+        sans: ['"Montserrat"'],
+        montserrat: ["Montserrat", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+        garamond: ["Garamond", "sans-serif"],
       },
     },
   },

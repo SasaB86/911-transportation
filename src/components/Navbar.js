@@ -151,7 +151,7 @@ const Navbar = () => {
               </li>
 
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 pl-3 relative ${getActiveClass(
                   "contact"
                 )}`}
               >

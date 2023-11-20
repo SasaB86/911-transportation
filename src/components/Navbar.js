@@ -49,16 +49,16 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-col items-end">
-          <div className=" md:flex gap-4 text-sm ">
-            <p className="text-white text-lg flex items-center gap-2">
-              <FaPhone className="h-5 w-5    text-white" />
+          <div className=" md:flex gap-4 text-sm md:text-lg ">
+            <p className="text-white flex items-center gap-2">
+              <FaPhone className="h-5 w-5 text-white" />
               <span>
                 <a href="tel:+12244223254" title="Phone Number">
                   +1 224 422 3254
                 </a>
               </span>
             </p>
-            <p className="text-white text-lg flex items-center gap-2">
+            <p className="text-white flex items-center gap-2">
               <FaHouse className="h-5 w-5 text-white" />
               <span>
                 <a

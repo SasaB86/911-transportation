@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
       </div>
       {/* Google Map Embed */}
-      <div className="relative h-[75vh] overflow-hidden aspect-ratio-16/9">
+      <div className="relative h-[60vh] overflow-hidden aspect-ratio-16/9">
         <iframe
           className="absolute top-0 left-0 w-full h-full border-0 grayscale"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6462.535569989578!2d-87.8959948034245!3d42.041344240874785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb0447ae71d6d%3A0xe95d217a6e46c8ba!2sDes%20Plaines%2C%20IL%2C%20USA!5e0!3m2!1sen!2srs!4v1700081341620!5m2!1sen!2srs"

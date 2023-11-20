@@ -38,18 +38,18 @@ const Navbar = () => {
 
   return (
     <header className="md:sticky md:top-0 z-50">
-      <div className="px-4 py-2 text-white flex  md:flex-row justify-around items-center bg-black">
-        <div className="flex items-center w-auto">
+      <div className="px-4 py-2 text-white flex md:flex-row justify-around items-center bg-black">
+        <div className="flex items-center">
           <img
             src={logo}
             alt="Logo"
             onClick={handleScrollToTop}
-            className="md:h-18 md:w-36 h-12 w-28 mr-2 w-auto cursor-pointer"
+            className="h-12 w-28 md:h-1/2 md:w-1/2 mr-2 w-auto cursor-pointer"
           />
         </div>
 
-        <div className="flex flex-col items-end">
-          <div className=" md:flex gap-4 text-sm md:text-lg ">
+        <div className="flex flex-col items-end gap-2">
+          <div className=" md:flex gap-4 text-sm md:text-md ">
             <p className="text-white flex items-center gap-2">
               <FaPhone className="h-5 w-5 text-white" />
               <span>
@@ -75,14 +75,14 @@ const Navbar = () => {
           <div
             className={
               toggleMenu
-                ? "md:flex  md:pt-0 pt-10 w-full md:w-auto"
+                ? "md:flex  md:pt-0 pt-10 w-full md:w-auto text-sm md:text-[1rem]"
                 : "hidden md:flex"
             }
             id="menu"
           >
             <ul>
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                className={`md:inline-block  uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-1.5 relative ${getActiveClass(
                   "home"
                 )}`}
               >
@@ -99,7 +99,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-1.5 relative ${getActiveClass(
                   "about"
                 )}`}
               >
@@ -116,7 +116,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-1.5 relative ${getActiveClass(
                   "fleet"
                 )}`}
               >
@@ -133,7 +133,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-1.5 relative ${getActiveClass(
                   "services"
                 )}`}
               >
@@ -151,7 +151,7 @@ const Navbar = () => {
               </li>
 
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 pl-3 relative ${getActiveClass(
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 pl-1.5 relative ${getActiveClass(
                   "contact"
                 )}`}
               >

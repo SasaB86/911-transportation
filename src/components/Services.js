@@ -6,7 +6,7 @@ import promService from "../images/circles-04.png";
 
 const Services = () => {
   return (
-    <section id="services" className="bg-[#efefef] py-8 md:pt-12">
+    <section id="services" className="bg-[#efefef] py-8 md:py-12">
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto ">
         <span className="hidden md:line-left"></span>
         <span className="text-between-lines border-b-4 border-[#d41c30] md:border-none">
@@ -14,11 +14,11 @@ const Services = () => {
         </span>
         <span className="hidden md:line-right"></span>
       </h2>
-      <div className="container w-[80%] mx-auto ">
+      <div className="container w-[90%] md:w-[80%] mx-auto ">
         {/* Service 1 */}
         <div className="service-container flex flex-col 2xl:flex-row justify-around items-center text-center md:text-left  mx-auto relative ">
           <div className="w-[100%]  my-4">
-            <div className="2xl:w-[50%] h-full mx-12 2xl:ml-12 flex flex-col justify-center items-start">
+            <div className="2xl:w-[50%] h-full mx-12 2xl:ml-12 flex flex-col justify-center items-start ">
               <h3 className="text-2xl font-bold mb-2">AIRPORT SERVICES</h3>
               <p className="my-2">
                 Elevate Your Airport Experience with 911 Transportation:

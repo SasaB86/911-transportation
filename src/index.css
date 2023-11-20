@@ -19,7 +19,7 @@ html {
   }
 
   .service-container {
-    @apply bg-[#212121] text-white w-[80%] my-16 md:py-4 2xl:my-24 2xl:h-[390px];
+    @apply bg-[#212121] text-white w-[90%] md:w-[80%] my-16 md:py-4 2xl:my-24 2xl:h-[390px];
   }
 
   .active {
@@ -28,7 +28,7 @@ html {
 }
 @tailwind utilities;
 
-p, a {
+p {
   font-family: 'Roboto', sans-serif;
 }
 

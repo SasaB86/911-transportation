@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaHouse, FaPhone } from "react-icons/fa6";
 
 import { Link } from "react-scroll";
@@ -7,6 +7,7 @@ import "../index.css";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
 
   const handleToggle = () => {
     setToggleMenu(!toggleMenu);
@@ -18,6 +19,22 @@ const Navbar = () => {
       behavior: "smooth",
     });
   };
+
+  const getActiveClass = (sectionName) => {
+    return scrollY >= 0 && scrollY < 100 ? "active" : "";
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <header className="md:sticky md:top-0 z-50">
@@ -65,9 +82,9 @@ const Navbar = () => {
           >
             <ul>
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
-                  window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
-                }`}
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                  "home"
+                )}`}
               >
                 <Link
                   className="scroll-smooth"
@@ -82,9 +99,9 @@ const Navbar = () => {
                 </Link>
               </li>
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
-                  window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
-                }`}
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                  "about"
+                )}`}
               >
                 <Link
                   className="scroll-smooth"
@@ -99,9 +116,9 @@ const Navbar = () => {
                 </Link>
               </li>
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
-                  window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
-                }`}
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                  "fleet"
+                )}`}
               >
                 <Link
                   className="scroll-smooth"
@@ -116,9 +133,9 @@ const Navbar = () => {
                 </Link>
               </li>
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${
-                  window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
-                }`}
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                  "services"
+                )}`}
               >
                 <Link
                   className="scroll-smooth"
@@ -134,9 +151,9 @@ const Navbar = () => {
               </li>
 
               <li
-                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 md:px-0  relative ${
-                  window.scrollY >= 0 && window.scrollY < 100 ? "active" : ""
-                }`}
+                className={`md:inline-block uppercase cursor-pointer hover:text-gray-500 border-none md:border-none py-2 px-3 relative ${getActiveClass(
+                  "contact"
+                )}`}
               >
                 <Link
                   className="scroll-smooth"

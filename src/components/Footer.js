@@ -41,7 +41,6 @@ const Footer = () => {
           <Link
             className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
             to="home"
-            spy={true}
             smooth={true}
             offset={-100}
             duration={400}
@@ -51,7 +50,6 @@ const Footer = () => {
           <Link
             className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
             to="about"
-            spy={true}
             smooth={true}
             offset={-100}
             duration={400}
@@ -61,7 +59,6 @@ const Footer = () => {
           <Link
             className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
             to="fleet"
-            spy={true}
             smooth={true}
             offset={-100}
             duration={400}
@@ -71,7 +68,6 @@ const Footer = () => {
           <Link
             className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
             to="services"
-            spy={true}
             smooth={true}
             offset={-100}
             duration={400}
@@ -82,7 +78,6 @@ const Footer = () => {
           <Link
             className="text-sm md:text-base mr-4 uppercase cursor-pointer hover:text-gray-500 scroll-smooth"
             to="contact"
-            spy={true}
             smooth={true}
             offset={-100}
             duration={400}

@@ -18,7 +18,7 @@ const Services = () => {
         {/* Service 1 */}
         <div className="service-container flex flex-col 2xl:flex-row justify-around items-center text-center md:text-left  mx-auto relative ">
           <div className="w-[100%]  my-4">
-            <div className="2xl:w-[50%] h-full mx-12 2xl:ml-12 flex flex-col justify-center items-start ">
+            <div className="2xl:w-[50%] h-full  mx-12  flex flex-col justify-center items-start ">
               <h3 className="text-2xl font-bold mb-2">AIRPORT SERVICES</h3>
               <p className="my-2">
                 Elevate Your Airport Experience with 911 Transportation:
@@ -43,18 +43,18 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className="z-10 mx-auto 2xl:mr-10 2xl:absolute 2xl:right-0">
+          <div className="mx-auto 2xl:mr-10 2xl:absolute 2xl:right-0">
             <img
               src={airportService}
               alt="Airport Services"
-              className="w-3/4 h-3/4 md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-5/6 2xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
+              className="w-3/4 h-3/4 md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-[5/6] 2xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
             />
           </div>
         </div>
 
         {/* Service 2 */}
         <div className="service-container flex flex-col 2xl:flex-row justify-around items-center text-center md:text-left  mx-auto relative ">
-          <div className="z-10 mx-auto 2xl:ml-10 2xl:absolute 2xl:left-0">
+          <div className=" mx-auto 2xl:ml-10 2xl:absolute 2xl:left-0">
             <img
               src={businessService}
               alt="Business Service"
@@ -62,7 +62,7 @@ const Services = () => {
             />
           </div>
           <div className="w-[100%] my-4">
-            <div className="2xl:w-[50%] h-full px-12 lg:ml-auto 2xl:mr-12 flex flex-col justify-center items-start ">
+            <div className="2xl:w-[50%] h-full px-12 lg:ml-auto  flex flex-col justify-center items-start ">
               <h3 className="text-2xl font-bold mb-2">BUSINESS & CORPORATE</h3>
               <p className="my-2">
                 At 911 Transportation we are specialize in delivering
@@ -99,7 +99,7 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className="z-10 mx-auto 2xl:mr-10 2xl:absolute 2xl:right-0">
+          <div className=" mx-auto 2xl:mr-10 2xl:absolute 2xl:right-0">
             <img
               src={weddingService}
               alt="Wedding Services"
@@ -110,7 +110,7 @@ const Services = () => {
 
         {/* Service 4 */}
         <div className="service-container flex flex-col 2xl:flex-row justify-around items-center text-center md:text-left  mx-auto relative ">
-          <div className="z-10 mx-auto 2xl:ml-10 2xl:absolute 2xl:left-0">
+          <div className=" mx-auto 2xl:ml-10 2xl:absolute 2xl:left-0">
             <img
               src={promService}
               alt="Prom Services"
@@ -118,7 +118,7 @@ const Services = () => {
             />
           </div>
           <div className="w-[100%]  my-4">
-            <div className="2xl:w-[50%] h-full px-12 lg:ml-auto 2xl:mr-12 flex flex-col justify-center items-start ">
+            <div className="2xl:w-[50%] h-full px-12 lg:ml-auto flex flex-col justify-center items-start ">
               <h3 className="text-2xl font-bold mb-2">PROM SERVICES</h3>
               <p className="my-2">
                 Arrive in Style and Make Unforgettable Memories with 911

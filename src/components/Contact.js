@@ -31,7 +31,17 @@ const Contact = () => {
             <FaMapMarkerAlt className="text-2xl text-[#0060ff]" />
             <div>
               <h3 className="text-2xl font-bold mb-2 uppercase">Location</h3>
-              <p className="text-lg">Des Plaines, Illinois 60016</p>
+              <p className="text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://maps.app.goo.gl/TWsYkCURcMhSyDcs5"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Google Map"
+                >
+                  Des Plaines, Illinois 60016
+                </a>
+              </p>
             </div>
           </div>
 

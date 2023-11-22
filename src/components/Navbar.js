@@ -44,16 +44,20 @@ const Navbar = () => {
             src={logo}
             alt="Logo"
             onClick={handleScrollToTop}
-            className="h-12 w-28 md:h-1/2 md:w-1/2 mr-2 w-auto cursor-pointer"
+            className="h-12 w-28 md:h-3/5 md:w-3/5 mr-2 w-auto cursor-pointer"
           />
         </div>
 
-        <div className="flex flex-col items-end gap-2">
+        <div className="flex flex-col items-end gap-2 md:gap-4">
           <div className=" md:flex gap-4 text-sm md:text-md ">
             <p className="text-white flex items-center gap-2">
               <FaPhone className="h-5 w-5 text-white" />
               <span>
-                <a href="tel:+12244223254" title="Phone Number">
+                <a
+                  href="tel:+12244223254"
+                  className="hover:text-gray-500"
+                  title="Phone Number"
+                >
                   +1 224 422 3254
                 </a>
               </span>
@@ -62,6 +66,7 @@ const Navbar = () => {
               <FaHouse className="h-5 w-5 text-white" />
               <span>
                 <a
+                  className="hover:text-gray-500"
                   href="https://maps.app.goo.gl/TWsYkCURcMhSyDcs5"
                   target="_blank"
                   rel="noreferrer"

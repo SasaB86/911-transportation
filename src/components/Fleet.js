@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 const Fleet = () => {
   return (
     <section id="fleet" className="bg-[#efefef] py-8 md:py-12">
-      <div className="container w-9/12 mx-auto text-center px-12">
+      <div className="container w-9/12 mx-auto text-center lg:px-12">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto ">
           <span className="hidden md:line-left"></span>
           <span className="text-between-lines border-b-4 border-[#d41c30] md:border-none">
@@ -29,11 +29,11 @@ const Fleet = () => {
             conversation.
           </p>
         </div>
-        <div className="container w-[80%] mx-auto flex flex-col items-center md:justify-around md:flex-row md:items-center">
-          <div className="md:w-1/2 mb-6 md:mb-0">
+        <div className="container w-[80%] mx-auto flex flex-col items-center md:justify-around lg:flex-row md:items-center">
+          <div className="w-full lg:w-1/2 mb-6 md:mb-0">
             <img src={carImage} alt="Fleet" className="w-full h-auto" />
           </div>
-          <div className="md:w-1/2 md:pl-8 flex flex-col items-center text-left">
+          <div className="w-full lg:w-1/2 md:pl-8 flex flex-col items-center text-left">
             <ul>
               <h2 className="text-lg md:text-3xl font-bold mb-4 text-left">
                 Ford Expedition
@@ -45,8 +45,8 @@ const Fleet = () => {
               </li>
               <li>
                 <div className="flex items-center gap-2">
-                  <FaStar className="h-2.5 w-2.5 text-[#d41c30]" /> 6 passengers
-                  maximum (with luggage)
+                  <FaStar className="h-2.5 w-2.5 text-[#d41c30] truncate" /> 6
+                  passengers maximum (with luggage)
                 </div>
               </li>
             </ul>

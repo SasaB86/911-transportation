@@ -82,7 +82,7 @@ const Footer = () => {
             offset={-100}
             duration={400}
           >
-            Contact Us
+            Contact
           </Link>
         </div>
         {/* Copyright Text */}

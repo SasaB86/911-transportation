@@ -18,7 +18,7 @@ const Services = () => {
         {/* Service 1 */}
         <div className="service-container flex flex-col 2xl:flex-row justify-around items-center text-center md:text-left  mx-auto relative ">
           <div className="w-[100%]  my-4">
-            <div className="2xl:w-[50%] h-full  mx-12  flex flex-col justify-center items-start ">
+            <div className="2xl:w-1/2 h-full  mx-12  flex flex-col justify-center items-start ">
               <h3 className="text-2xl font-bold mb-2">AIRPORT SERVICES</h3>
               <p className="my-2">
                 Elevate Your Airport Experience with 911 Transportation:
@@ -43,22 +43,22 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className="mx-auto 2xl:mr-10 2xl:absolute 2xl:right-0">
+          <div className="mx-auto 3xl:mr-10 2xl:absolute 2xl:right-0 order-first">
             <img
               src={airportService}
               alt="Airport Services"
-              className="w-3/4 h-3/4 md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-[5/6] 2xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
+              className="w-full xl:h-full md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-[5/6] 3xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
             />
           </div>
         </div>
 
         {/* Service 2 */}
         <div className="service-container flex flex-col 2xl:flex-row justify-around items-center text-center md:text-left  mx-auto relative ">
-          <div className=" mx-auto 2xl:ml-10 2xl:absolute 2xl:left-0">
+          <div className=" mx-auto 3xl:ml-10 2xl:absolute 2xl:left-0">
             <img
               src={businessService}
               alt="Business Service"
-              className="w-3/4 h-3/4 md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-5/6 2xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
+              className="w-full xl:h-full md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-[5/6] 3xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
             />
           </div>
           <div className="w-[100%] my-4">
@@ -99,22 +99,22 @@ const Services = () => {
               </ul>
             </div>
           </div>
-          <div className=" mx-auto 2xl:mr-10 2xl:absolute 2xl:right-0">
+          <div className=" mx-auto 3xl:mr-10 2xl:absolute 2xl:right-0 order-first">
             <img
               src={weddingService}
               alt="Wedding Services"
-              className="w-3/4 h-3/4 md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-5/6 2xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
+              className="w-full xl:h-full md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-[5/6] 3xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
             />
           </div>
         </div>
 
         {/* Service 4 */}
         <div className="service-container flex flex-col 2xl:flex-row justify-around items-center text-center md:text-left  mx-auto relative ">
-          <div className=" mx-auto 2xl:ml-10 2xl:absolute 2xl:left-0">
+          <div className=" mx-auto 3xl:ml-10 2xl:absolute 2xl:left-0">
             <img
               src={promService}
               alt="Prom Services"
-              className="w-3/4 h-3/4 md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-5/6 2xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
+              className="w-full xl:h-full md:w-5/6 md:h-5/6 lg:w-5/6 lg:h-5/6 xl:w-5/6 xl:h-[5/6] 3xl:w-full xl:h-full object-contain bg-white rounded-full ring-2 ring-offset-2 ring-offset-[#0060ff] mx-auto my-4 "
             />
           </div>
           <div className="w-[100%]  my-4">

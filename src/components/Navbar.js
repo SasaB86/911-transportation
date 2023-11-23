@@ -169,7 +169,7 @@ const Navbar = () => {
                   duration={400}
                   onClick={handleToggle}
                 >
-                  Contact Us
+                  Contact
                 </Link>
               </li>
             </ul>

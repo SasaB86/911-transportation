@@ -40,13 +40,14 @@ const Fleet = () => {
               </h2>
               <li>
                 <div className="flex items-center gap-2 text-sm md:text-base">
-                  <FaStar size={8} className="text-[#d41c30]" /> Year 2024
+                  <FaStar className="w-1.5 h-1.5 md:w-2 md:h-2 text-[#d41c30]" />{" "}
+                  Year 2024
                 </div>
               </li>
               <li>
                 <div className="flex items-center flex-wrap gap-2 text-sm md:text-base ">
-                  <FaStar size={8} className="text-[#d41c30]" /> 6 Passengers
-                  Maximum
+                  <FaStar className="w-1.5 h-1.5 md:w-2 md:h-2 text-[#d41c30]" />{" "}
+                  6 Passengers Maximum
                   <span>(with luggage)</span>
                 </div>
               </li>

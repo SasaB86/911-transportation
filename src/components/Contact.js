@@ -12,13 +12,15 @@ const Contact = () => {
           </span>
           <span className="hidden md:line-right"></span>
         </h2>
-        <div className="flex flex-col md:flex-row items-center justify-center  my-8">
+        <div className="flex flex-col lg:flex-row items-center justify-center  my-8">
           {/* Call Us */}
-          <div className="w-1/5 flex flex-col items-center mb-8">
+          <div className="w-full lg:w-1/5 flex flex-col items-center mb-8">
             <FaPhone className="text-2xl text-[#0060ff]" />
             <div>
-              <h3 className="text-2xl font-bold mb-2 uppercase">Call Us</h3>
-              <p className="text-lg">
+              <h3 className="text-xl md:text-2xl font-bold mb-2 uppercase">
+                Call Us
+              </h3>
+              <p className="text-md md:text-lg">
                 <a className="hover:underline" href="tel:+12244223254">
                   Phone: +1 (224) 422 3254
                 </a>
@@ -27,11 +29,13 @@ const Contact = () => {
           </div>
 
           {/* Location */}
-          <div className="w-1/5 flex flex-col items-center mb-8 mx-6">
+          <div className="w-full lg:w-1/5 flex flex-col items-center mb-8 mx-6">
             <FaMapMarkerAlt className="text-2xl text-[#0060ff]" />
             <div>
-              <h3 className="text-2xl font-bold mb-2 uppercase">Location</h3>
-              <p className="text-lg">
+              <h3 className="text-xl md:text-2xl font-bold mb-2 uppercase">
+                Location
+              </h3>
+              <p className="text-md md:text-lg">
                 <a
                   className="hover:underline"
                   href="https://maps.app.goo.gl/TWsYkCURcMhSyDcs5"
@@ -46,11 +50,13 @@ const Contact = () => {
           </div>
 
           {/* Email */}
-          <div className="w-1/5 flex flex-col items-center mb-8">
+          <div className="w-full lg:w-1/5 flex flex-col items-center mb-8">
             <FaEnvelope className="text-2xl text-[#0060ff]" />
             <div>
-              <h3 className="text-2xl font-bold mb-2 uppercase">Email</h3>
-              <p className="text-lg">
+              <h3 className="text-xl md:text-2xl font-bold mb-2 uppercase">
+                Email
+              </h3>
+              <p className="text-md md:text-lg">
                 <a
                   className="hover:underline"
                   href="mailto:911transportation23@gmail.com"

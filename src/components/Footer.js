@@ -28,7 +28,7 @@ const Footer = () => {
             <FaFacebookSquare size={28} />
           </a>
           <a
-            href="https://www.instagram.com/911transportation/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+            href="https://www.instagram.com/911transportation/"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -51,7 +51,7 @@ const Navbar = () => {
         <div className="flex flex-col items-end gap-2 md:gap-4">
           <div className=" md:flex gap-4 text-sm md:text-md ">
             <p className="text-white flex items-center gap-2">
-              <FaPhone className="h-5 w-5 text-white" />
+              <FaPhone className="w-4 h-4 md:h-5 md:w-5 text-white" />
               <span>
                 <a
                   href="tel:+12244223254"
@@ -63,7 +63,7 @@ const Navbar = () => {
               </span>
             </p>
             <p className="text-white flex items-center gap-2">
-              <FaHouse className="h-5 w-5 text-white" />
+              <FaHouse className="w-4 h-4 md:h-5 md:w-5 text-white" />
               <span>
                 <a
                   className="hover:text-gray-500"

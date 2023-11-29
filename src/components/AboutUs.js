@@ -35,7 +35,7 @@ const AboutUs = () => {
 
   return (
     <section id="about" className="bg-[#efefef] py-8 md:py-12">
-      <div className="container w-9/12 mx-auto text-center px-12">
+      <div className="container w-full lg:w-9/12 mx-auto text-center px-6 md:px-12">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12 mx-auto ">
           <span className="hidden md:line-left"></span>
           <span className="text-between-lines border-b-4 border-[#d41c30] md:border-none">

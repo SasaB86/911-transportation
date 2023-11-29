@@ -14,16 +14,16 @@ const Fleet = () => {
           <span className="hidden md:line-right"></span>
         </h2>
         <div className="py-8 mb-14">
-          <p className="text-center text-md md:text-[1rem] md:px-12 px-8 mb-4">
+          <p className="text-center text-md md:text-[1rem] md:px-12 px-6 mb-4">
             Introducing the ultimate luxury vehicle from 911 Transportation's
             limo service, designed to provide an unparalleled experience in
             elegance, security, and performance.{" "}
           </p>
-          <p className="text-center text-md md:text-[1rem] md:px-12 px-8 mb-4">
+          <p className="text-center text-md md:text-[1rem] md:px-12 px-6 mb-4">
             Our SUV offers an imposing exterior, presenting an aura of prestige
             and strength.
           </p>{" "}
-          <p className="text-center text-md md:text-[1rem] md:px-12 px-8 mb-4">
+          <p className="text-center text-md md:text-[1rem] md:px-12 px-6 mb-4">
             Whether you're traveling for business or pleasure, our SUV provides
             an exclusive oasis where you can unwind, work, or engage in
             conversation.
